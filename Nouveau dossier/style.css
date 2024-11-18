@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5722;
+  }
+  
+  /* Profile Section */
+  #profile {
+    padding: 100px 20px 50px; /* Adds padding to avoid overlap with navbar */
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #profile img {
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin-bottom: 20px;
+  }
+  
+  #profile p {
+    font-size: 18px;
+  }
+  
+  #profile strong {
+    font-weight: bold;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #projects div {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  #projects img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    #projects div {
+      width: 90%;
+    }
+  }
+  
